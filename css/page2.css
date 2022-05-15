@@ -189,10 +189,10 @@ html {
 }
 .header-link-items > a {
     display: inline-block;
-    padding: 20px 30px;
+    padding: 14px 20px;
     text-decoration: none;
     color: var(--text-primary);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 .header-link-items > a {
@@ -269,8 +269,8 @@ html {
 }
 .education-list > li > a  {
     display: inline-block;
-    font-size: 20px;
-    padding: 20px 30px;
+    font-size: 18px;
+    padding: 15px 30px;
     color: var(--text-primary);
     text-decoration: none;
 }
@@ -280,7 +280,7 @@ html {
 }
 .education-list > p {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 30px;
     color: var(--text-primary);
 }
@@ -405,24 +405,25 @@ html {
 .footer-menu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 50px;
     padding: 50px 0;
 
 }
 .footer-menu ul {
     list-style: none;
-    margin-right: 200px;
+    margin-right: 70px;
 }
 .footer-menu ul > li:nth-child(1) > a {
     font-weight: 700;
 }
 .footer-menu-items {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .footer-menu-items a {
     text-decoration: none;
     color: var(--text-primary);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
 }
 .footer-menu-items-icon i {
@@ -455,6 +456,7 @@ html {
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    text-decoration: none;
 }
 .connect-icon i {
     color: #fff;
@@ -467,7 +469,7 @@ html {
     margin-bottom: 100px;
 }
 .footer-bottom p {
-    font-size: 19px;
+    font-size: 16px;
 }
 .footer-bottom p a {
     color: #000;
