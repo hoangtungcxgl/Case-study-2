@@ -549,7 +549,10 @@ html {
     .right-main > p {
         display: none;
     }
-    
+    .footer-menu ul {
+        flex: 0 0 50%;
+        margin-right: 0;
+    }
     
 }
 /* End <1000px */
@@ -647,8 +650,9 @@ html {
         padding: 0 0 50px 0;
     }
     .footer-menu ul {
-        margin-right: 100px;
+        /* margin-right: 100px; */
         margin-bottom: 20px;
+        flex: 0 0 100%;
     }
     .footer-menu-items {
         padding: 8px 0;
@@ -711,6 +715,9 @@ html {
     .lesson__btn {
         font-size: 10px;
         padding: 10px 14px;
+    }
+    .lesson__btn-block {
+        display: inline-block;
     }
     .main__menu {
         margin-bottom: 25px;

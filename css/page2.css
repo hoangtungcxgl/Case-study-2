@@ -496,6 +496,10 @@ html {
     .col-md {
         flex: 0 0 50%;
     }
+    .footer-menu ul {
+        flex: 0 0 50%;
+        margin-right: 0x;
+    }
 }
 /* End <1000px */
 /* tablet <= 768px */
@@ -635,8 +639,8 @@ html {
         padding: 0 0 50px 0;
     }
     .footer-menu ul {
-        margin-right: 100px;
         margin-bottom: 20px;
+        flex: 0 0 100%;
     }
     .footer-menu-items {
         padding: 8px 0;
