@@ -687,7 +687,7 @@ html {
     }
     .footer-menu ul {
         flex: 0 0 50%;
-        margin-right: 0x;
+        margin-right: 0;
     }
 }
 /* End <1000px */
